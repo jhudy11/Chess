@@ -1,16 +1,16 @@
 //
 //  StartScreen.swift
-//  MammothChess
+//  Chess
 //
-//  Created by Zebra on 2016-09-01.
-//  Copyright © 2016 Mammoth Interactive. All rights reserved.
+//  Created by Joshua Hudson on 4/30/17.
+//  Copyright © 2017 ParanoidPenguinProductions. All rights reserved.
 //
 
 import UIKit
 
 class StartScreen: UIViewController {
     
-    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let destVC = segue.destination as! ViewController
         
